@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(201, 11, 20);
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+    color: #fff;
+}
+.container {
+    max-width: 416px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(211, 114, 114);
+    border-radius: 8px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+form input {
+    font-size: 16px;
+    color: rgb(201, 11, 20);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(201, 11, 20);
+    border-radius: 8px;
+    padding: 8px;
+}
+input::placeholder{
+    color: rgb(211, 114, 114);
+}
+
+form button{
+    background-color: #009432;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #009432;
+    border-radius: 8px;
+}
+ul {
+    list-style: none;
+    padding: 16px;
+}
+li {
+    font-size: 16px;
+    background-color: rgb(255, 255, 255,0.7);
+    border: 1px solid rgb(201, 11, 20);
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 4px;
+    color: rgb(201, 11, 20);
+}
+.tarefa-concluida {
+    text-decoration: line-through;
+    background-color: rgb(201, 11, 20,0.2);
+}
